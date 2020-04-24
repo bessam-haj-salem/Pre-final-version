@@ -1,0 +1,222 @@
+html, body {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.header {
+    padding: 30px 0 30px;
+    position: absolute; /*we must change the position to absolute with the video position too*/
+    min-height: 100px;
+    width: 100%;
+    /*display : none;*/
+}
+
+
+#videoBG
+ {
+    position: absolute;
+    z-index: -1;
+    top: -285px; /*this for making the video lower*/
+  
+}
+
+
+
+.logo {
+   
+    /*padding: 0 15px;*/
+    width: 93%;
+    margin-bottom: 10px;
+    display: inline-block;
+    height: 300px;
+    margin-top: 68px
+}
+
+
+.hb {
+   
+    height: 150px;
+    max-width: 100%;
+    padding: 0 37px;
+    float: left;
+    margin-left: 80px
+}
+
+
+.social a{
+    background: #2b2626;
+    min-width: 1em;
+    text-align: center;
+    border-radius: .2em;
+    float: right;
+
+   
+    opacity: 0.7;
+    padding: 5px;
+    /*margin-left: 10px;*/
+    margin right:80px;
+    font-size: 50px;
+  
+  	color: white;  
+  	text-decoration: none;
+}
+.social a:hover
+{
+	background-color: rgba(0, 0, 0,1);
+  
+}
+
+
+
+
+.container1 
+{
+    margin: 0 210px;
+    padding: 0 15px;
+  
+    
+}
+
+.subContainer1
+{
+    display: flex; /*it set our page responsive (fixed)   */  
+    margin-left: 170px;
+}
+
+
+.subContainer1 a {
+    padding: 0 3px;
+    margin-left: 29px;
+    white-space: nowrap; /*it set too the page responsive it doesnt allow the white space to compress*/
+    font-size: 20px;
+    
+    color: #fff;
+    text-shadow: 0 0 5px #000;
+    text-transform: uppercase;
+    font-weight: 200;
+   
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+.subContainer1 a:hover
+{
+   background-color: rgba(89, 89, 89,0.5);
+   color: white;
+}
+.container2 
+{
+	margin-top: 222px;
+	margin-left: 218px;
+}
+
+select
+{
+	/*margin-left : 50px;*/
+	
+	padding: 10px 50px ;
+	
+	text-align-last: center;
+	font-size: 15px;
+	margin-right: auto;
+	margin-left: 7px;
+	
+
+
+}
+
+.container2 button
+{
+	margin-left : 50px;
+	
+	padding: 10px 50px;
+/*	font-size: 15px;
+	margin-right: auto;
+	margin-left: 7px;
+	padding-left:10px*/
+
+}
+
+/*.page2
+{
+  display: block;
+
+}*/
+
+h2
+{
+    color: blue;
+}
+
+.dis
+{
+    color : red;
+}
+
+/*****************************popup*******************************/
+#search
+{
+    background-color: white;
+  color: black;
+  padding: 1em 1.5em;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 10px;
+  margin-left: 10px
+}
+
+form {
+    margin-top: -50px;
+    margin-bottom: 82px;
+    margin-left: 56px;
+}
+/****************************page2****************************/
+
+#img2
+{
+    margin: 60px 0px 0px 35px;
+    height: 600px;
+    width: 500px;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+     
+
+}
+#img2:hover
+{
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+}
+
+.tex
+{
+    float:right;
+    /*margin:232px 133px 0px 47px;*/
+    margin-top: 192px;
+    margin-left: 80px;
+    margin-right: 189px;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    line-height: 2em;
+    color: black;
+    font-size: 20px;
+    justify-content: center;
+
+}
+.cont
+{
+    /*display: none;*/
+    overflow: hidden;
+    
+    display: none;
+}
+.house
+{
+    float: left;
+    
+
+}
+.cont1
+{
+    display: flex;
+
+}
